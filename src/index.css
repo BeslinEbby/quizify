@@ -44,3 +44,29 @@ body {
    border: none;
    cursor: pointer;
 }
+.options {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   margin-top: 1rem;
+}
+.option {
+   padding: 0.75rem 1rem;
+   border-radius: 8px;
+   border: 1px solid #e6e9ef;
+   cursor: pointer;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.option span:nth-last-child(){
+   font-size: 8px;
+}
+.option.correct {
+   border-color: #10b981;
+   background: #ecfdf5;
+}
+.option.wrong {
+   border-color: #ef4444;
+   background: #fff1f2;
+}
