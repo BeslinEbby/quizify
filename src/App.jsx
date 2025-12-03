@@ -3,7 +3,7 @@ import Start from './components/Start'
 
 const App = () => {
   return (
-    <div>
+    <div className='app-container'>
       <Start/>
     </div>
   )
